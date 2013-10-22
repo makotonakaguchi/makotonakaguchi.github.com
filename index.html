@@ -2,153 +2,15 @@
 <html vocab="http://schema.org/" typeof="WebPage">
 <head>
 <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta property="keywords" content="中口誠, makotonakaguchi, github, html5, css3, 例, Example " />
 <meta property="description" content="HTMLやCSS、JavaScriptライブラリなどの学習過程の成果物を公開しています。" />
 <meta property="url" content="http://makotonakaguchi.github.io/" />
 <title>makotonakaguchi&nbsp;-&nbsp;github</title>
 <link rel="shortcut icon" href="octocat.ico" />
+<link rel="stylesheet" href="home.css" media="screen"/>
 <style>
-html {
-  background: #fefefe;
-}
-body {
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS P Gothic", "Osaka", Helvetica, Arial, sans-serif;
-	font-size: 14px;
-  margin: 0;
-  padding: 0;
-}
-a {
-	text-decoration: none;
-}
-table {
-  border-collapse: collapse;
-}
-table, td {
-  border: none;
-}
 
-header {
-  position: relative;
-  min-width: 840px;
-  width: 100%;
-  height: 400px;
-  border-bottom: 4px solid #4b301c;
-  background-image: url(http://www.makotonakaguchi.net/images/makoto_2x.gif), url(studio_desk.png), url(studio_flooring.png);
-  background-repeat: no-repeat, no-repeat, repeat;
-  background-position: left 48px top 96px, left 600px top 32px, left top;
-  background-size: 128px auto, auto, auto;
-}
-h1 {
-  position: absolute;
-  top: 96px;
-  left: 196px;
-  margin: 0;
-  font-size: 4rem;
-  font-kerning: auto;
-  text-shadow: 1px 1px 2px #333, -1px -1px 2px #333;
-  color: #fff;
-}
-#gh-projBtn {
-  position: absolute;
-  bottom: 64px;
-  left: 48px;
-  padding: 8px;
-  border: 3px solid transparent;
-  border-radius: 3px;
-  background: #fff;
-}
-#gh-projBtn:hover {
-  border: 3px solid #000;
-  border-radius: 3px;
-}
-#gh-projBtn img {
-  margin-right: 8px;
-  vertical-align: -0.25rem;
-}
-#gh-projBtn span {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
-}
-article {
-  margin: 0;
-  padding: 48px;
-}
-article h2 {
-  margin: 0;
-  font-size: 2rem;
-}
-article h2+p {
-  margin: 0.5rem 0;
-}
-#contLists {
-  width: 100%;
-  margin-right: 3rem;
-}
-#contLists tbody {
-  border-top: 3px solid #ddd;
-}
-#contLists tr {
-  border-bottom: 1px solid #ddd;
-}
-#contLists td {
-  padding: 1rem 0;
-}
-#contLists td:nth-of-type(1) {
-  width: 50%;
-  font-weight: bold;
-  color: #666;
-}
-#contLists td:nth-of-type(1) a {
-  color: #0072d3;
-}
-#contLists td:nth-of-type(1) a:visited {
-  color: #666;
-}
-#contLists td:nth-of-type(1) a:hover {
-  color: #0072d3;
-  text-decoration: underline;
-  text-underline-position: under;
-}
-#contLists td:nth-of-type(2) {
-  width: 30%;
-  color: #666;
-}
-#contLists td:nth-of-type(3) {
-  width: 20%;
-  color: #666;
-}
-#contLists td:nth-of-type(3)::before {
-  content: "Latest : ";
-}
-footer {
-	margin: 0 auto;
-}
-footer p {
-	margin: 1em;
-	text-align: center;
-	font-size: 0.9em;
-	color: #686868;
-}
-footer a {
-	color: #000;
-}
-footer a:visited {
-	color: #686868;
-}
-footer a:hover {
-	background: #ccc;
-}
-footer a:active {
-	color: #fff;
-	background: #222;
-}
-[lang="en"] {
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-}
-small {
-	font-size: 1em;
-}
 </style>
 </head>
 <body>
@@ -162,52 +24,63 @@ small {
   <table id="contLists">
     <tbody>
       <tr>
+        <td><a href="css_text3/index.html">CSS Text Level 3 Example</a></td>
+        <td>CSS Text Level3の動作確認</td>
+        <td><time property="dateModified" datetime="2013-10-23">2013-10-23</time></td>
+      </tr>
+      <tr>
+        <td><a href="flexbox_menu/index.html">Flexbox Menu</a></td>
+        <td>FlexBoxを使用したナビゲーションメニュー</td>
+        <td><time property="dateModified" datetime="2013-10-23">2013-10-23</time></td>
+      </tr>
+      
+      <tr>
         <td><a href="css_shapes/index.html">CSS Shapes Example</a></td>
         <td>カスタム形状による回り込みの実装例</td>
-        <td><time property="datePublished" datetime="2013-10-12">2013-10-12</time></td>
+        <td><time property="dateModified" datetime="2013-10-12">2013-10-12</time></td>
       </tr>
       
       <tr>
         <td><a href="maps/examplemap.html">Google Maps API Samples</a></td>
         <td>アクセスマップの実例</td>
-        <td><time property="datePublished" datetime="2013-10-09">2013-10-09</time></td>
+        <td><time property="dateModified" datetime="2013-10-09">2013-10-09</time></td>
       </tr>
       
       <tr>
         <td><a href="gradients/index.html">Gradients Exmple</a></td>
         <td>グラデーションの動作確認</td>
-        <td><time property="datePublished" datetime="2013-10-09">2013-10-09</time></td>
+        <td><time property="dateModified" datetime="2013-10-09">2013-10-09</time></td>
       </tr>
 
       <tr>
         <td><a href="svg/index.html">SVG Exmple</a></td>
         <td>SVGの活用例</td>
-        <td><time property="datePublished" datetime="2013-10-04">2013-10-04</time></td>
+        <td><time property="dateModified" datetime="2013-10-04">2013-10-04</time></td>
       </tr>      
                   
       <tr>
         <td><a href="font_level3/index.html">CSS Fonts Module Level 3 Exmple</a></td>
         <td>動作確認（ブラウザの実装確認）</td>
-        <td><time property="datePublished" datetime="2013-10-04">2013-10-04</time></td>
+        <td><time property="dateModified" datetime="2013-10-04">2013-10-04</time></td>
       </tr>      
       
       <tr>
         <td><a href="regions/index.html">CSS Regions Exmple</a></td>
         <td>CSS Regionsのとりあえずの例</td>
-        <td><time property="datePublished" datetime="2013-10-03">2013-10-03</time></td>
+        <td><time property="dateModified" datetime="2013-10-03">2013-10-03</time></td>
       </tr>
 
       <tr>
         <td><a href="flexbox/index.html">Flexbox Exmple</a></td>
-        <td>Flexboxの例</td>
-        <td><time property="datePublished" datetime="2013-10-02">2013-10-02</time></td>
+        <td>Flexboxの動作確認</td>
+        <td><time property="dateModified" datetime="2013-10-02">2013-10-02</time></td>
       </tr>
     </tbody>  
   </table>
 </article>
 <footer>
   <p></p>
-  <p lang="en"><small>Copyright &#169; <time itemprop="dateModified" datetime="2013-10-12">2013</time></small>&nbsp;design by <a href="http://makotonakaguchi.net">MAKOTO NAKAGUCHI</a>&nbsp;&nbsp;|&nbsp;&nbsp;Hosted on <a href="https://github.com">GitHub</a></p>
+  <p lang="en"><small>Copyright &#169; <time property="dateModified" datetime="2013-10-23">2013</time></small>&nbsp;design by <a href="http://makotonakaguchi.net">MAKOTO NAKAGUCHI</a>&nbsp;&nbsp;|&nbsp;&nbsp;Hosted on <a href="https://github.com">GitHub</a></p>
   </footer>
 </body>
 </html>

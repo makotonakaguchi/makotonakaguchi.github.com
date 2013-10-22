@@ -1,0 +1,141 @@
+html {
+  background: #fefefe;
+}
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS P Gothic", "Osaka", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+a {
+	text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+}
+table, td {
+  border: none;
+}
+
+header {
+  position: relative;
+  min-width: 840px;
+  width: 100%;
+  height: 400px;
+  border-bottom: 4px solid #4b301c;
+  background-image: url(http://www.makotonakaguchi.net/images/makoto_2x.gif), url(studio_desk.png), url(studio_flooring.png);
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left 48px top 96px, left 600px top 32px, left top;
+  background-size: 128px auto, auto, auto;
+}
+h1 {
+  position: absolute;
+  top: 96px;
+  left: 196px;
+  margin: 0;
+  font-size: 4rem;
+  font-kerning: auto;
+  text-shadow: 1px 1px 2px #333, -1px -1px 2px #333;
+  color: #fff;
+}
+#gh-projBtn {
+  position: absolute;
+  bottom: 64px;
+  left: 48px;
+  padding: 8px;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  background: #fff;
+}
+#gh-projBtn:hover {
+  border: 3px solid #000;
+  border-radius: 3px;
+}
+#gh-projBtn img {
+  margin-right: 8px;
+  vertical-align: -0.25rem;
+}
+#gh-projBtn span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+article {
+  margin: 0;
+  padding: 48px;
+}
+article h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+article h2+p {
+  margin: 0.5rem 0;
+}
+#contLists {
+  width: 100%;
+  margin-right: 3rem;
+}
+#contLists tbody {
+  border-top: 3px solid #ddd;
+}
+#contLists tr {
+  border-bottom: 1px solid #ddd;
+}
+#contLists td {
+  padding: 1rem 0;
+}
+#contLists td:nth-of-type(1) {
+  width: 50%;
+  font-weight: bold;
+  color: #666;
+}
+#contLists td:nth-of-type(1) a {
+  color: #0072d3;
+}
+#contLists td:nth-of-type(1) a:visited {
+  color: #666;
+}
+#contLists td:nth-of-type(1) a:hover {
+  color: #0072d3;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+#contLists td:nth-of-type(2) {
+  width: 30%;
+  color: #666;
+}
+#contLists td:nth-of-type(3) {
+  width: 20%;
+  color: #666;
+}
+#contLists td:nth-of-type(3)::before {
+  content: "Latest : ";
+}
+footer {
+	margin: 0 auto;
+}
+footer p {
+	margin: 1em;
+	text-align: center;
+	font-size: 0.9em;
+	color: #686868;
+}
+footer a {
+	color: #000;
+}
+footer a:visited {
+	color: #686868;
+}
+footer a:hover {
+	background: #ccc;
+}
+footer a:active {
+	color: #fff;
+	background: #222;
+}
+[lang="en"] {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+}
+small {
+	font-size: 1em;
+}
