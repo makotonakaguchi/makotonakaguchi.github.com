@@ -2,19 +2,30 @@ html {
   background: #fefefe;
 }
 body {
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS P Gothic", "Osaka", Helvetica, Arial, sans-serif;
-	font-size: 14px;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", Yu Gothic, sans-serif;
+  font-size: 14px;
 }
 a {
 	text-decoration: none;
 }
+img {
+    border: 0;
+}
 table {
   border-collapse: collapse;
+  border-spacing: 0;
 }
 table, td {
   border: none;
+}
+b {
+    font-weight: bold;
+}
+small {
+	font-size: 1em;
 }
 
 header {
@@ -46,71 +57,69 @@ h1 {
   border: 3px solid transparent;
   border-radius: 3px;
   background: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
 }
 #gh-projBtn:hover {
   border: 3px solid #000;
   border-radius: 3px;
 }
-#gh-projBtn img {
+#gh-projBtn > img {
   margin-right: 8px;
   vertical-align: -0.25rem;
 }
-#gh-projBtn span {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
-}
-article {
+
+#study {
   margin: 0;
   padding: 48px;
 }
-article h2 {
+#study > h2 {
   margin: 0;
   font-size: 2rem;
 }
-article h2+p {
+#study > p {
   margin: 0.5rem 0;
 }
 #contLists {
   width: 100%;
   margin-right: 3rem;
 }
-#contLists tbody {
+#cl-tbody {
   border-top: 3px solid #ddd;
+  color: #666;
 }
-#contLists tr {
+#cl-tbody > tr {
   border-bottom: 1px solid #ddd;
 }
-#contLists td {
+#cl-tbody td {
   padding: 1rem 0;
 }
-#contLists td:nth-of-type(1) {
+td[property="name"] {
   width: 50%;
   font-weight: bold;
-  color: #666;
 }
-#contLists td:nth-of-type(1) a {
+td[property="name"] a {
   color: #0072d3;
 }
-#contLists td:nth-of-type(1) a:visited {
+td[property="name"] a:visited {
   color: #666;
 }
-#contLists td:nth-of-type(1) a:hover {
+td[property="name"] a:hover {
   color: #0072d3;
   text-decoration: underline;
-  text-underline-position: under;
+  text-underline-position: -webkit-under;
 }
-#contLists td:nth-of-type(2) {
+td[property="description"] {
   width: 30%;
-  color: #666;
 }
-#contLists td:nth-of-type(3) {
+td[property="dateModified"] {
   width: 20%;
-  color: #666;
 }
-#contLists td:nth-of-type(3)::before {
+td[property="dateModified"]::before {
   content: "Latest : ";
 }
+
 footer {
 	margin: 0 auto;
 }
@@ -135,7 +144,4 @@ footer a:active {
 }
 [lang="en"] {
 	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-}
-small {
-	font-size: 1em;
 }
